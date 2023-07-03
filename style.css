@@ -17,6 +17,10 @@ header{
     padding: 0 40px;
     height: 80px;
     text-decoration: none;
+    position: fixed;
+    width: 100%;
+    
+    
 }
 .img-container {
     width: 50px;
@@ -44,6 +48,8 @@ header{
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
+    
+   
 }
 
 .navitems a:hover{
@@ -62,13 +68,261 @@ header{
     
 }
 
+#sobremim{
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sobremim-content {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 50%;
+}
+
+.redes-conteiner{
+  position: absolute;
+  top: -90px;
+  left: 0px;
+}
+
+.perfil-redes{
+  background-image: url("https://scontent.fcgh3-1.fna.fbcdn.net/v/t39.30808-6/334205177_3421239601425940_5491897310541771840_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHnUeJqYIMx4MOFFyoiDv3RS0mXNhwR3nBLSZc2HBHecLTMClonxEOg1gfX5fmw07zR6sWS6n3KOedsrL5GAVRx&_nc_ohc=nd2o5yx6qNoAX8c3kTf&_nc_ht=scontent.fcgh3-1.fna&oh=00_AfCN9InPVFP7JAqaJEuLmg0ax8lrHfipggEwdlkP7h1H3A&oe=64A651E1");
+  width: 180px;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 50%;
+}
+
+.perfil-redes a{
+  text-decoration: none;
+  position: absolute;
+}
+
+.gitbuh{
+  bottom: -20px;
+  left: 15px;
+
+}
+
+.linkdin{
+  bottom: -20px;
+  right: 9px;
+  transform: translateX(-50%);
+}
 
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(203,179,214,1) 39%, rgba(148,187,233,1) 100%);
-    color: rgb(53, 5, 34);
-    text-align: center;}
+.perfil-redes img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: 10s;
+}
+
+.perfil-redes img:hover{
+transform: scale(1.2);
+  
+
+    
+}
+
+#sobremim{
+  padding: 14px 0;
+  display: flex;
+  justify-content: center;
+  color: #000;
+
+}
+.sobremim-containter{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.sobremim-container h2{
+  font-weight: 700px;
+  font-style: normal;
+  color:#000;
+
+}
+
+
+.sobremim-item{
+  margin-top: 16px;
+  padding-left: 8px;
+ border-radius: 5px;
+}
+
+
+.ola{
+  font-size: 14px;
+  font-weight: bold;
+  font-size: large;
+}
+
+  
+
+
+
+#formacao {
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  color: #000;
+}
+
+.formacao-container {
+  width: 50%;
+}
+
+.formacao-container h2{
+  font-weight: 700px;
+  font-style: normal;
+  color:#000;
+}
+
+.Formacao-item{
+  margin-top: 16px;
+  padding-left: 8px;
+  border-left: 6px solid #C71585;
+ border-radius: 5px;
+}
+
+
+.ano{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.diploma{
+  font-size: 14px;
+}
+
+.Institucao{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+
+#experiencia {
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  color: #000;
+  background-color: #800080;
+}
+
+.experiencia-container {
+  width: 50%;
+}
+
+.experiencia-container h2{
+  font-weight: 700px;
+  font-style: normal;
+  color:#ffffff;
+}
+
+.experiencia-item{
+  margin-top: 16px;
+  padding-left: 8px;
+  border-left: 6px solid #C71585;
+ border-radius: 5px;
+ color: #ffffff;
+}
+
+
+.ano{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.cargo{
+  font-size: 14px;
+}
+
+.empresa{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+
+#projetos{
+  padding: 2px 0;
+  background-color:  #BA55D3;
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px solid;
+}
+.card-body a {
+  font-size: 15px;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+.card-body a:hover{
+  background-color: rgb(253, 174, 132);
+  color: rgb(250, 249, 249);
+  opacity: 1;
+  border-radius: 45%;
+}
+
+.botoes {
+  display:inline-block;
+  width: 200%;
+  margin: 0px 5px 10px 40px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.card-container {
+  width: 50%;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.card-title {
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.card-text {
+  font-size: 16px;
+  text-align: justify;
+}
+
+
+.card {
+  width: 32%;
+  margin-bottom: 8px;
+  border-bottom: 1 px solid #000;
+}
+
+.card:hover{
+  font-weight: 500;
+  font-style: normal;
+}
+
+.card-container h2 {
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+
+   
